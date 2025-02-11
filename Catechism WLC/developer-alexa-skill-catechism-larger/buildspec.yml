@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - npm install alexa-sdk
+      - aws cloudformation package --template-file aslc-template.yaml --s3-bucket marlhammer-lambda-build --output-template-file aslc.yaml
+artifacts:
+  type: zip
+  files:
+    - aslc.yaml

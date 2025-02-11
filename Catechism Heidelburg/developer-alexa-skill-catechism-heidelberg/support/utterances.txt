@@ -1,0 +1,12 @@
+HCIntent ask question {question}
+HCIntent ask question number {question}
+HCIntent what is question {question}
+HCIntent what is question number {question}
+HCIntent say question {question}
+HCIntent say question number {question}
+HCIntent answer question {question}
+HCIntent answer question number {question}
+HCIntent tell me question {question}
+HCIntent tell me question number {question}
+HCIntent what is the answer to question {question}
+HCIntent what is the answer to question number {question}

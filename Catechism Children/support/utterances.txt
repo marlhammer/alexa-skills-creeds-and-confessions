@@ -1,0 +1,12 @@
+ask question {question}
+ask question number {question}
+what is question {question}
+what is question number {question}
+say question {question}
+say question number {question}
+answer question {question}
+answer question number {question}
+tell me question {question}
+tell me question number {question}
+what is the answer to question {question}
+what is the answer to question number {question}

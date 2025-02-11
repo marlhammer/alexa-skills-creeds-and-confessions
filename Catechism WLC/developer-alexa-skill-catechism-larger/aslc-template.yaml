@@ -1,0 +1,18 @@
+﻿AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: Alexa Skill - Larger Catechism
+Resources:
+  alexaskilllargercatechism:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      FunctionName: developer-alexa-larger-catechism
+      Handler: index.handler
+      Runtime: nodejs6.10
+      Description: Alexa Skill - Larger Catechism
+      MemorySize: 128
+      Timeout: 7
+      Role: >-
+        arn:aws:iam::738265248082:role/developer-role-lambda-execute
+      Events:
+        AlexaSkillEvent:
+          Type: AlexaSkill

@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "intent": "HCIntent",
+      "slots": [
+        {
+          "name": "question",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
+
+

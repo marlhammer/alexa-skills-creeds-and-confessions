@@ -1,0 +1,12 @@
+LCIntent ask question {question}
+LCIntent ask question number {question}
+LCIntent what is question {question}
+LCIntent what is question number {question}
+LCIntent say question {question}
+LCIntent say question number {question}
+LCIntent answer question {question}
+LCIntent answer question number {question}
+LCIntent tell me question {question}
+LCIntent tell me question number {question}
+LCIntent what is the answer to question {question}
+LCIntent what is the answer to question number {question}

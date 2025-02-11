@@ -1,0 +1,12 @@
+SCIntent ask question {question}
+SCIntent ask question number {question}
+SCIntent what is question {question}
+SCIntent what is question number {question}
+SCIntent say question {question}
+SCIntent say question number {question}
+SCIntent answer question {question}
+SCIntent answer question number {question}
+SCIntent tell me question {question}
+SCIntent tell me question number {question}
+SCIntent what is the answer to question {question}
+SCIntent what is the answer to question number {question}
